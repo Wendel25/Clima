@@ -1,0 +1,64 @@
+body, html{
+    height: 100px;
+    margin: 0;
+}
+
+.bg{
+    background-image: url(icons/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-header{
+    color: black
+   
+}
+
+.city{
+    font-size: 32px;
+   
+}
+
+.date{
+    font-size: 16px;
+    color: black
+}
+
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.712);
+    cursor: pointer;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(87, 84, 84, 0.712);
+    color: rgb(248, 245, 245);
+    border-radius: 10px;
+
+}
+
+.weather{
+    font-size: 32px;
+    color: black
+}
+
+.bg-light{
+    color: black
+}
+
+.hi-low{
+    font-size: 22px;
+    color: black
+}
+
+.low-high{
+    color: black
+}
+
+.shadow-lg{
+   box-shadow: 5px 6px black
+}
